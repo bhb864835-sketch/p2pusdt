@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python p2p_bot.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
