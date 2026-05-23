@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "854058497:AAEfrNAOynipf_4CT9k23ftWESL5wmhCU-A")
 
 (MAIN, SETTINGS, S_NAME, S_FIAT, S_PAY, S_COIN,
  S_MAX, S_MIN, S_TARGET, S_ORDERS, S_API, S_SECRET) = range(12)
