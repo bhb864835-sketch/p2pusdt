@@ -15,7 +15,7 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8854058497:AAFRurkSRIP0tEmL2XACuAVLfsznbtMFciM")
 
 (MAIN, SETTINGS, S_NAME, S_FIAT, S_PAY, S_COIN,
  S_MAX, S_MIN, S_TARGET, S_ORDERS, S_API, S_SECRET) = range(12)
